@@ -5,37 +5,37 @@ Responder a las siguientes preguntas:
 ## Conceptos
 
 ### ¿Qué es un servidor?
-Es un sistema informático que proporciona servicios, recursos o información en respuesta a las peticiones de otros dispositivos, llamados clientes, a través de una red.
+Es un sistema informático que proporciona servicios, recursos o información en respuesta a las peticiones de otros dispositivos, denominados clientes, a través de una red.
 
 ### Cliente vs Servidor
 
-- **Servidor**: es el sistema que ofrece servicios, recursos o información. Está siempre disponible para recibir y atender solicitudes de otros clientes en la red.
-- **Cliente**: es el dispositivo o programa que solicita servicios o información y realiza peticiones para utilizarlos al servidor.
+- **Cliente**: es quien genera una petición solicitando algo al servidor.
+- **Servidor**: es quien escucha y responde a las solicitudes del cliente.
 
 ### ¿Qué es una API?
-API (Application Programming Interface) es un conjunto de reglas y protocolos que permite que diferentes programas se comuniquen entre sí y puedan intercambiar información o usar servicios de manera controlada y segura. 
+API (Application Programming Interface) es una interfaz que expone funciones o servicios de una aplicación para que otras aplicaciones puedan utilizarlos, especificando los métodos, formatos de datos y protocolos de comunicación.
 
-Funciona como un intermediario, definiendo cómo se deben solicitar los datos y cómo se recibirán.
+Haciendo posible de este modo, la comunicación entre sistemas.
 
 ## HTTP en profundidad
 
-HTTP (Hypertext Transfer Protocol) es un protocolo de la capa de aplicación que permite la comunicación entre clientes y servidores en la web. Actúa como el mensajero de la web, quien facilita el envío y la recepción de información, como páginas web y datos, utilizando el modelo de petición y respuesta y apoyándose en TCP/IP.
+HTTP (Hypertext Transfer Protocol) es un protocolo de la capa de aplicación que permite la comunicación y transferencia de datos, como HTML, imágenes, videos, etc. Fue diseñado originalmente para la comunicación entre un navegador (cliente) y un servidor. HTTP sigue el modelo clásico cliente–servidor, en el cual el cliente establece una conexión con el servidor, envía una petición y espera recibir la respuesta correspondiente.
 
-### Request / Response
+HTTP es sin estado (stateless): cada petición es independiente de la anterior.
 
-HTTP funciona con un modelo request-response entre un cliente y un servidor.
+### Request
 
-#### Request
+Una request es el mensaje que el cliente envía al servidor para pedir un recurso.
 
-Request se refiere al mensaje que envía el cliente al servidor para pedir algo o enviar información.
+<img src="https://mdn.github.io/shared-assets/images/diagrams/http/overview/http-request.svg" width="200">
 
-#### Response
+#### Métodos HTTP
 
-Response es el mensaje que devuelve el servidor al cliente después de procesar el request.
+### Response
 
-### Métodos HTTP (GET, POST, PUT, DELETE, PATCH)
+La response es el mensaje que el servidor devuelve al cliente.
 
-### Códigos de estado
+#### Códigos de estado
 
 ### JSON como formato de intercambio
 
