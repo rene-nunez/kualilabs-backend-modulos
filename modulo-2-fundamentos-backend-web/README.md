@@ -1,5 +1,10 @@
 # Módulo 2: Fundamentos de backend y la web
 
+## Descripción
+
+- El directorio [src](./src/) contiene una ejemplo usando la función JavaScript `fetch`.
+- Este fichero contiene la investigación del módulo 2.
+
 Responder a las siguientes preguntas:
 
 ## Conceptos
